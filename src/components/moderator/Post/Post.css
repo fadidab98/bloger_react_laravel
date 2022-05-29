@@ -1,0 +1,55 @@
+@keyframes godown {
+  from {
+    top: -100vh;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.Modal {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  min-height: 100%;
+  z-index: 50;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.Modal .modal-content {
+  width: 40%;
+  z-index: 110;
+  height:100vh;
+  animation-name: godown;
+  animation-duration: 1s;
+  overflow:auto;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #4e73df; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background:  #224abe; 
+}

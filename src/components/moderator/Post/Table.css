@@ -1,0 +1,10 @@
+table tbody .many {
+  height: 5rem;
+  line-height: 5rem;
+}
+.form_data{
+  max-width:  70rem;
+  height: 100%;
+  overflow-x: scroll;
+  z-index: 155;
+ }

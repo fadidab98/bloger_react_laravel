@@ -1,0 +1,7 @@
+
+User-agent: *
+Allow:/About
+Allow:/*/*
+Disallow:/login
+Disallow:/admin/*
+Disallow:/moderator/*

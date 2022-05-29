@@ -1,0 +1,9 @@
+table{
+    min-width:  65rem;
+    height: 100%;
+  
+   }
+   #table_user{
+   
+    overflow-x: scroll;
+   }

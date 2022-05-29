@@ -1,0 +1,23 @@
+#Category{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Category .card{
+    width: 50%;
+    height: 50%;
+
+}
+#Category .card .card-header img{
+    width: 100%;
+    height: 16rem;
+    
+}
+@media (max-width: 720px){
+    #Category .card{
+      width: 90%;
+    }
+  }

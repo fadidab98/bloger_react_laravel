@@ -1,0 +1,37 @@
+@keyframes godown {
+  from {
+    top: -100vh;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  min-height: 100%;
+  z-index: 50;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal .modal-content {
+  width: 80%;
+  z-index: 110;
+  animation-name: godown;
+  animation-duration: 0.7s;
+ 
+}
+@media (max-width: 720px){
+  .Modal .modal-content{
+    width: 90%;
+  }
+}

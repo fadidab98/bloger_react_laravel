@@ -1,0 +1,13 @@
+table tbody .many {
+  height: 5rem;
+  line-height: 5rem;
+}
+table{
+  min-width:  75rem;
+  height: 100%;
+
+ }
+ #table_user{
+  min-width: 100% ;
+  overflow-x: scroll;
+ }
